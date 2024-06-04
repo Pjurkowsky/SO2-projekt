@@ -1,0 +1,3 @@
+/home/pjury/SO2-proj/build/CMakeFiles/sopki.dir
+/home/pjury/SO2-proj/build/CMakeFiles/edit_cache.dir
+/home/pjury/SO2-proj/build/CMakeFiles/rebuild_cache.dir

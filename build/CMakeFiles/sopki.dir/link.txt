@@ -1,0 +1,1 @@
+/sbin/c++ CMakeFiles/sopki.dir/src/fridge.cpp.o CMakeFiles/sopki.dir/src/garfield.cpp.o CMakeFiles/sopki.dir/src/main.cpp.o CMakeFiles/sopki.dir/src/producer.cpp.o -o sopki  -lcurses -lform
