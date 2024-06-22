@@ -6,10 +6,11 @@
 #include <condition_variable>
 
 #include "fridge.h"
+#include "clock.h"
 
 class Producer {
 public:
-    Producer(Fridge &fridge, std::mutex &mutex, std::condition_variable &cv);
+    Producer(Fridge &fridge, Clock &clock, std::mutex &mutex, std::condition_variable &cv, Window* windows);
 
     void produce();
 
@@ -19,6 +20,12 @@ private:
     std::mutex& m_mutex;
     std::condition_variable &m_cv;
     Fridge &m_fridge;
+    Window *m_windows;
+    Clock &m_clock;
+
+    bool m_isWorking = true;
+
+  
 
     void addLasagna();
 };
